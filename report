@@ -1,0 +1,63 @@
+VPN Setup and Privacy Evaluation Report
+🎯 Objective:
+To understand how VPNs protect privacy and ensure secure online communication by setting up a VPN client, analyzing IP changes, and evaluating encrypted traffic behavior.
+
+🛠 Tools Used:
+VPN Client: ProtonVPN (Free Tier)
+Verification Site: https://whatismyipaddress.com
+Browser: Google Chrome
+
+✅ Steps Taken:
+1. VPN Service Selection
+Chose ProtonVPN, a reputable free VPN provider known for:
+No-logs policy
+AES-256 encryption
+DNS leak protection
+
+2. Installation
+Downloaded and installed the ProtonVPN client on my device.
+
+3. Connection
+Connected to the closest available VPN server (Netherlands server was chosen based on availability).
+
+4. IP Verification
+Before VPN: My real IP (India-based) was visible on whatsmyipaddress.com.
+After VPN Activation: IP changed to one from the Netherlands, confirming successful masking.
+
+5. Browsing & Encryption Check
+Visited multiple websites (Google, Wikipedia, etc.)
+All traffic was encrypted (checked via HTTPS and VPN tunnel)
+
+6. Disconnection & Comparison
+Disconnected from ProtonVPN
+Rechecked IP and browsing speed:
+With VPN: Slightly slower page loading (expected due to encryption overhead)
+Without VPN: IP reverted to Indian ISP, faster browsing
+
+🔒 VPN Encryption & Privacy Features (Research Summary)
+Feature	Description
+AES-256 Encryption	Military-grade encryption that protects data in transit
+No-logs Policy	Ensures VPN provider doesn't store browsing activity
+IP Masking	Hides real IP, protecting identity and location
+DNS Leak Protection	Prevents your DNS requests from being exposed
+Kill Switch (Paid)	Blocks internet traffic if VPN disconnects unexpectedly (Proton’s paid tier)
+
+✍️ VPN Benefits & Limitations Summary
+✅ Benefits:
+Enhanced privacy by masking IP and location
+Bypasses geo-restrictions for content
+Secure encryption on public Wi-Fi networks
+Protects against ISP tracking and profiling
+
+⚠️ Limitations:
+Reduced speed due to encryption overhead
+Free tiers have limited server access
+VPN does not protect against malware or phishing
+Some websites block VPN IPs (e.g., Netflix or banking portals)
+
+📷 Connection Status Screenshot:
+Attached as screenshots
+
+🏁 Outcome:
+Hands-on experience with VPN setup, IP masking validation, and privacy feature evaluation. Gained practical insight into the use of VPNs for safe internet access and data protection.
+
